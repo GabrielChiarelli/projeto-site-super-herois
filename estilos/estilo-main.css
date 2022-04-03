@@ -9,8 +9,8 @@
 }
 
 body {
-    height: 100vh;
     background-image: linear-gradient(68.15deg, rgb(255, 42, 42), rgb(42, 42, 255));
+    background-attachment: fixed;           /* impede que o BG não apareça ao rolar a página */
 }
 
 header {
@@ -34,10 +34,10 @@ nav > a:hover {
 }
 
 main {
-    /*min-height: 820px;
-    max-height: 820px;
+    min-height: 0px;
+    max-height: 135px;
     min-width: 300px;
-    max-width: 1000px;*/
+    max-width: 1000px;
     /*width: auto;*/
     margin: auto;
     margin-bottom: 425px;
@@ -48,13 +48,15 @@ main {
 
 main > h1 { 
     margin-top: 300px;
+    margin-bottom: 50px;
     text-align: center;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main > p {
-    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
     color: white;
     font-family: 'Roboto', sans-serif;
