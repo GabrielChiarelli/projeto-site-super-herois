@@ -67,6 +67,16 @@ main > p {
     /*text-indent: 30px;*/
 }
 
+.capa-esquerda {
+    border-radius: 2px;
+    display: block;
+    padding: 0;
+    margin: 20px auto;
+    text-align: center;
+
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.24);
+}
+
 .imagens {
     padding: 0;
     margin-top: 20px;
@@ -86,6 +96,12 @@ main > p {
     border-radius: 2px;
 
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.24);
+}
+
+div.lista {
+    
+    
+    
 }
 
 main > ul {
