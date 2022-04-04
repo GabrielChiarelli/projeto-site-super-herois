@@ -35,9 +35,10 @@ main > h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 90%;
 
-    width: 950px;
+    min-width: 300px;
+    max-width: 950px;
 
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
 }
