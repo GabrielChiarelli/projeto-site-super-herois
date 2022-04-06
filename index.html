@@ -5,17 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/estilo-index.css">
+    <link rel="stylesheet" href="estilos/esilo-menu-dropdown.css">
     <link rel="shortcut icon" href="imagens/favicon/escudo-capitao-america-favicon-001.svg" type="image/x-icon">
     <title>Super-Heróis</title>
 </head>
 <body>
-    <header>
+    <!--<header>
         <nav>
             <a href="#">Home</a>
             <a href="conteudos/homem-aranha.html">Marvel</a>
             <a href="#">DC Comics</a>
         </nav>
+    </header>-->
+    <header class="menu">
+        <nav>
+            <ul class="dropdown-menu">
+                <li><a href="#">Home</a></li>
+                <li>
+                    <a href="#">Marvel</a>
+                    <ul class="dropdown-submenu">
+                        <li><a href="conteudos/homem-aranha.html">Homem-Aranha</a></li>
+                        <li><a href="#">Hulk</a></li>
+                        <li><a href="#">Thor</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">DC Comics</a>
+                    <ul class="dropdown-submenu">
+                        <li><a href="#">Batman</a></li>
+                        <li><a href="#">Mulher-Maravilha</a></li>
+                        <li><a href="#">Super-Homem</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
     </header>
+
     <main>
         <h1>Olá, eu sou o Gabriel!</h1>
         <p>No momento da criação deste site, estou estudando HTML5 e CSS3.</p>
