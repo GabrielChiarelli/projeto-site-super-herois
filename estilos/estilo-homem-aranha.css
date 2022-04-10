@@ -49,6 +49,8 @@ main > h1 {
 p#creditos {
     padding-top: 20px;
     color: black;
+    
+    /*border-bottom: 2px solid rgb(0, 89, 255);*/
 }
 
 main > h2 {
@@ -96,7 +98,7 @@ main > p {
 .duas-imagens {
     margin: 20px;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     height: 400px;
 
     border-radius: 2px;
